@@ -13,6 +13,8 @@
 		E65A9B65296C10B5007A4061 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65A9B63296C10B5007A4061 /* Main.storyboard */; };
 		E65A9B67296C10B5007A4061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E65A9B66296C10B5007A4061 /* Assets.xcassets */; };
 		E65A9B6A296C10B5007A4061 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E65A9B68296C10B5007A4061 /* LaunchScreen.storyboard */; };
+		E6BD757F296D169A004EBB38 /* GreetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD757E296D169A004EBB38 /* GreetingViewModel.swift */; };
+		E6BD7583296D1775004EBB38 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6BD7582296D1775004EBB38 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		E65A9B66296C10B5007A4061 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E65A9B69296C10B5007A4061 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E65A9B6B296C10B5007A4061 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BD757E296D169A004EBB38 /* GreetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingViewModel.swift; sourceTree = "<group>"; };
+		E6BD7582296D1775004EBB38 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				E65A9B5D296C10B5007A4061 /* AppDelegate.swift */,
 				E65A9B5F296C10B5007A4061 /* SceneDelegate.swift */,
 				E65A9B61296C10B5007A4061 /* GreetingViewController.swift */,
+				E6BD757E296D169A004EBB38 /* GreetingViewModel.swift */,
 				E65A9B63296C10B5007A4061 /* Main.storyboard */,
 				E65A9B66296C10B5007A4061 /* Assets.xcassets */,
 				E65A9B68296C10B5007A4061 /* LaunchScreen.storyboard */,
 				E65A9B6B296C10B5007A4061 /* Info.plist */,
+				E6BD7582296D1775004EBB38 /* Person.swift */,
 			);
 			path = ArchtirecturalPatternsSwift;
 			sourceTree = "<group>";
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6BD7583296D1775004EBB38 /* Person.swift in Sources */,
 				E65A9B62296C10B5007A4061 /* GreetingViewController.swift in Sources */,
 				E65A9B5E296C10B5007A4061 /* AppDelegate.swift in Sources */,
 				E65A9B60296C10B5007A4061 /* SceneDelegate.swift in Sources */,
+				E6BD757F296D169A004EBB38 /* GreetingViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
